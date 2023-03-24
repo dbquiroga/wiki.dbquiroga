@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[265],{7455:a=>{a.exports=JSON.parse('{"label":"blockchain","permalink":"/dbquiroga/blog/tags/blockchain","allTagsPath":"/dbquiroga/blog/tags","count":1}')}}]);
