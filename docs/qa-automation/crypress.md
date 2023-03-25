@@ -48,7 +48,6 @@ npm install cypress@10.3.0 --save-dev
   Verificar que se crearon las carpetas en el proyecto
 
 5. Instalar extensiones
- 
- Chai snippets
-  Error lens
-  Cypress snippets
+  - Chai snippets
+  - Error lens
+  - Cypress snippets
