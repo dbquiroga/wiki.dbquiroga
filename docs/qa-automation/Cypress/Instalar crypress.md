@@ -1,3 +1,7 @@
+---
+sidebar_position: 0
+---
+
 ## Como empezar
 
 1. Instalar NodeJS
