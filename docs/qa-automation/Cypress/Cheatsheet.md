@@ -15,6 +15,11 @@ npx cypress open
 Acordarse de estar dentro de la carpeta donde se instalo cypress antes de ejecutarlo
 :::
 
+#### Para correr un solo test
+```
+npx cypress run --spec "./cypress/e2e/primer-desafio.cy.js"
+```
+
 ### Cosas Javascript
 
 #### Metodos que vamos a usar siempre
@@ -22,11 +27,14 @@ Acordarse de estar dentro de la carpeta donde se instalo cypress antes de ejecut
 - ** Math.random() ** : devuleve un numero entre 0 y 1
 - ** Math.flor() **: Promedia hacia abajo, se usa para que no devuleva numeros decimales
 - ** Math.ceil() **: Promedia hacia arriba, se usa para que no devuleva numeros decimales
+- ** forEach() **: 
 
 ```js title="Ejemplo de uso random"
 const numeroRandom = Math.ceil(Math.random() * 1000)
 ```
 En este caso se multiplica por mil para obtener un numero mas grande. 
+
+
 
 
 ### Tip de la vida

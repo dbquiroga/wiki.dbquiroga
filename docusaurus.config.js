@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Data Base Quiroga',
-  tagline: 'El Testing es cool',
+  tagline: 'El Testing puede ser cool',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

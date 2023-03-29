@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'QA Manual',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/undraw_manual.svg').default,
     description: (
       <>
         Lo que aprendi de ser una tester manual. Test funcional, no funcional y otras yerbas. 
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Habilidades Blandas',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/undraw_social.svg').default,
     description: (
       <>
         Aunque prefiera vivir en mi cueva sin interactuar,
@@ -24,7 +24,7 @@ const FeatureList = [
   },
   {
     title: 'QA Automation',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/undraw_automation.svg').default,
     description: (
       <>
         Automatizar las cosas aburridas hace que el testing sea divertido.

@@ -41,3 +41,10 @@ Si las etiquetas no tienen un cierre tienen un error, o se quede en blanco el na
 :::note
 La etiqueta !DOCTYPE indica el tipo de documento o tipo de version de HTML  a utilizar
 :::
+
+### Estructura que tenes que saber si o si
+Etiquetas: div, input, etc,etc.
+Atributos: typre, class
+Valores: "un-nombre"
+
+
