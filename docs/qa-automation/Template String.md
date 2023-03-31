@@ -2,8 +2,6 @@
 sidebar_position: 7
 ---
 
-## Template strings
-
 ### Que es
 Una nueva carcateristica de ES6, una nueva forma de mostrar textos, variables, datos e interpolar informacion. 
 

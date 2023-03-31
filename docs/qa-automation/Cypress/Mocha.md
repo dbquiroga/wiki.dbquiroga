@@ -6,7 +6,7 @@ sidebar_position: 4
 Para que cypress pueda correr los test necesita de mocha, quien le va a yudar a determinar que es un tets, que tiene que ejecutar primero o despues, cuantos test se tienen que ejecutar. Le indica a cypress que es un test y que deberia ser ejecutado como tal.
 
 :::note
-Mocka ya viene adentro de cypress, no hay que instalarlo. 
+Mocha ya viene adentro de cypress, no hay que instalarlo. 
 :::
 
 ### Cracateristicas
@@ -25,7 +25,7 @@ Mocka ya viene adentro de cypress, no hay que instalarlo.
 
 ** skip() **: Se utiliza para indicar que el/los test/ suite se ignoraran y no seran ejecutados.
 
-**only() **: Se utiliza para indicar que el/los test/ suite serán los únicos en ser ejecutados del archivo. 
+** only() **: Se utiliza para indicar que el/los test/ suite serán los únicos en ser ejecutados del archivo. 
 
 :::note
 Usar solo un describe() por archivo

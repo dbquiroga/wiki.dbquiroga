@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 3
 ---
 
 ### Que es HTML
@@ -43,8 +43,8 @@ La etiqueta !DOCTYPE indica el tipo de documento o tipo de version de HTML  a ut
 :::
 
 ### Estructura que tenes que saber si o si
-Etiquetas: div, input, etc,etc.
-Atributos: typre, class
-Valores: "un-nombre"
+- ** Etiquetas **: div, input, etc,etc.
+- ** Atributos **: typre, class
+- ** Valores **: "un-nombre"
 
 
