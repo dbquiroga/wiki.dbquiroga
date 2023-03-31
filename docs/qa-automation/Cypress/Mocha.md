@@ -32,5 +32,5 @@ Usar solo un describe() por archivo
 :::
 
 :::note
-El only se puede agregar al describe como al it. ej: describe.only(), it.only()
+El only se puede agregar al describe como al it. ej: describe.only(), it.only() 
 :::
