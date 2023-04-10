@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[1702],{6159:e=>{e.exports=JSON.parse('{"title":"QA - Manual","slug":"/category/qa---manual","permalink":"/docs/category/qa---manual","navigation":{"previous":{"title":"Sobre mi","permalink":"/docs/intro"},"next":{"title":"Casos de Pruebas","permalink":"/docs/qa-manual/test-case"}}}')}}]);
