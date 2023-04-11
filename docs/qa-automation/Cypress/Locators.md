@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-
+## Css selectors
 ### Elementos html
 la mejor manera de elegir elementos es ir por elemento unico y representativo, ir por el ID siempre. 
 
@@ -22,7 +22,7 @@ es lo mismo que escribir corchetes atributo y valor
 ej:
 #user
 
-tambien se puede agregar el tipo de tag name ej:
+tambien se puede agregar el tipo de tagname ej:
 input#user
 
 todos los elementos web de tipo input cuyo id sea user
@@ -32,7 +32,7 @@ si se usan comillas simples afuera, adentro se usan comillas dobles.
 si se usan comilas doble afuera, adentro se usan comillas simples
 :::
 
-##### Clases
+#### Clases
 
 A las clases se las puede representar con un punto .
 ej:
@@ -48,7 +48,7 @@ Antes de escribir un selector en vc code o en el editos, se abre la pagina de el
 :::
 
 
-#### Prioridad de selectores
+### Prioridad de selectores
 Los primeros 4 solo los usarian los QA
 - data-cy
 - data-test
@@ -62,16 +62,19 @@ Estos son los selectores que mas vamos a encontrar
 - atributes
 - nth-child
 
-#### Css selectors
+:::note
 Con css selectors no podemos encontrar elementos por su texto, ya que no es tan sencillo.
 tampoco podemos encontrar elementos que tengan parentezco por la madre, por ejemplo.
 
 
-Con css selector podemos ir hacia abajo del elemento, peor no ahcia arriba
+Con css selector podemos ir hacia abajo del elemento, pero no hacia arriba
 es decir desde madre a hija
 pero no de hija a madre
 
-#### Metodos de cypress
+Para estos casos de parentezco es donde se usan los metodos de cypress.
+:::
+
+### Metodos de cypress
 - .find() : encuentra elementos.
 - .contains() : permite encontrar elementos por su texto visible. Se le puede agregar que tipo de elemento es, ej: parrrafo p o label. 
 - .children(): para encontrar a sus hijos
@@ -80,3 +83,12 @@ pero no de hija a madre
 - .first() : para encontrar el primer elemento
 - .last(): para encontrar el ultimo elemento
 - .eq() : para encontrar elementos iguales
+
+### Encontrar atributos parciales con CSS Selectors
+
+- (asterisco) :para cuando queremos encontrar algo que contine. si no sabemos el inicio ni el final usamos el asteristo. Ej: ```[type*="ubm"]```
+
+- ^ :potencia para buscar para encontrar el ** inicio ** del valor del atributo. Ej: ```[type^="sub"]```
+
+- $ : para cuando queremos encontrar el ** final ** del valor del atributo.  Ej: ```[type$="mit"]```
+

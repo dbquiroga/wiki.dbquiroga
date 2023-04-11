@@ -4,8 +4,7 @@ sidebar_position: 1
 
 # Casos de Pruebas
 
-Parece una gilada, pero en los test case esta todo, desde estructurarnos y definir que probar y como
-hasta las bases de la automatizacion.
+Parece una gilada, pero en los test case esta todo. Nos estructuran para definir qué probar y cómo probar. También,  nos define las bases para luego hacer las automatizaciones.
 
 ## **Que es?**
 

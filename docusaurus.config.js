@@ -7,14 +7,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Data Base Quiroga',
-  tagline: 'El Testing puede ser cool',
+  tagline: 'La calidad no es un acto, es un hábito',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://dbquiroga.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/dbquiroga/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
