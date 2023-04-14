@@ -1,5 +1,7 @@
 ---
 sidebar_position: 3
+title: Demos para practicar Automatizaciones
+
 ---
 
 * Coloque estrellitas a las que a mi mas me gustaron. 
@@ -16,3 +18,5 @@ sidebar_position: 3
 
 
 6. [** OrangeHRM **:](https://opensource-demo.orangehrmlive.com/web/index.php/auth/login) Este sitio ofrece una aplicación de recursos humanos que puedes usar para practicar automation con Cypress. La aplicación incluye diferentes escenarios de prueba, como pruebas de autenticación, pruebas de formularios, pruebas de navegación y más. 
+
+7. :sparkles: [** Demo Blaze**](https://www.demoblaze.com/index.html) Sitio web que simula un ecommerce. Ofrece una simulación de compra en línea de una variedad de productos, como teléfonos móviles, laptops, cámaras y otros dispositivos electrónicos. 
