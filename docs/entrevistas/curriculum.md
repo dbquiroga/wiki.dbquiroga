@@ -19,7 +19,7 @@ Entonces... intente con canva, las pantillas son hermosas, pero lo mismo ara des
 
 Asi que termine en novoresume, el cual solo si usas funcionalidades premium es necesario pagar, pero si te mantienes en las funcionalidades basicas es completamente gratuito. Me llevo un tiempo preparar mi cv para que no usara funcionalidades premium, pero deje algo bastanta concreto, entendible y lindo como cv, tanto en ingles y español. Por ende lo recomiendo. 
 
-| Sitios                                 | Permite descarga |
+| Sitios                                 | Descarga gratis  |
 | ---------------                        | --------         |
 | [novoresume](https://novoresume.com/)  | Si               | 
 | [resume](https://www.resume.com/)      | No               |
