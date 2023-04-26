@@ -75,13 +75,6 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Sobre mi',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
             href: 'https://github.com/dbquiroga',
             label: 'GitHub',
             position: 'right',
@@ -116,10 +109,6 @@ const config = {
           {
             title: 'Más',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/dbquiroga',

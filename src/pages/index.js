@@ -12,7 +12,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)} style={{flex:1, backgroundImage:"/img/docusaurus.png", backgroundSize:'100%'}}> 
       <div className="container">
-        <img src="/img/me.png" style={{width:'100px', borderRadius: '50%'}}/> 
+        <img src={require("/img/me.png").default}alt="Day Quiroga" style={{ width: "100px", borderRadius: "50%" }}/>
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
