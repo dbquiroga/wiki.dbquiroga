@@ -24,16 +24,16 @@ NO recomiendo hacer esto porque despues te pide esa clave
 
 ### Agrega tu clave SSH a ssh-agent
 Es un programa que maneja tus claves SSH. Inicia el agente SSH con el siguiente comando:
-``` title= "bash"
+```jsx title= "bash"
 eval "$(ssh-agent -s)"
 ```
-Agrega tu clave privada a ssh-agent con el siguiente comando, reemplazando <ruta-a-la-clave-ssh> con la ubicación de tu clave SSH:
-``` title= "csharp"
+Agrega tu clave privada a ssh-agent con el siguiente comando, reemplazando `<ruta-a-la-clave-ssh>` con la ubicación de tu clave SSH:
+```jsx title= "csharp"
 ssh-add <ruta-a-la-clave-ssh>
 ```
 
 Ahora, copia la clave SSH pública al portapapeles con el siguiente comando:
-``` title= "javascript"
+```js title = "javascript"
 xclip -sel clip < ~/.ssh/id_ed25519.pub
 ```
 
