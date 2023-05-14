@@ -33,6 +33,14 @@
   text-align: center;
 }
 
+.heroTextContainer {
+    margin: 0 auto;
+    max-width: var(--ifm-container-width);
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    padding: 0 var(--ifm-spacing-horizontal)
+}
+
 .avatarArea>img {
   box-shadow: inset 0 0 10px #fff;
   padding: 6px;
@@ -54,3 +62,30 @@
   -ms-transform: rotate(1turn)
 }
 
+.heroTextArea {
+  background: #00000080;
+  border-radius: 1rem;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  padding: 20px;
+  white-space: nowrap
+}
+
+.heroTextTitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0
+}
+
+.heroTextSubTitle {
+  font-family: Yusei Magic,sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 8px
+}
+
+
+@media screen and (min-width: 576px) {
+  .heroTextContainer {
+      width: 38%
+  }
+}
