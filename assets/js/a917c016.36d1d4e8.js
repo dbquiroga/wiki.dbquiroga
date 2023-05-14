@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[6480],{2898:i=>{i.exports=JSON.parse('{"title":"Blockchain y Cripto","slug":"/category/blockchain-y-cripto","permalink":"/wiki.dbquiroga/docs/category/blockchain-y-cripto","navigation":{"next":{"title":"Conceptos b\xe1sicos","permalink":"/wiki.dbquiroga/docs/blockchain.md/diccionario"}}}')}}]);
