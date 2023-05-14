@@ -1,5 +1,6 @@
 ---
 sidebar_position: 7
+title: Templare Sring
 ---
 
 ### Que es

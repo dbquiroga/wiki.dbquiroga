@@ -1,6 +1,6 @@
 ---
 sidebar_position: 0
-title: Git Básico
+title: Comandos Git
 ---
 ## Para crear una nueva rama:
 
