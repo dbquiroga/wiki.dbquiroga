@@ -74,13 +74,25 @@
 .heroTextTitle {
   font-size: 1.5rem;
   font-weight: 500;
-  margin: 0
+  margin: 0;
+  color: white
 }
 
 .heroTextSubTitle {
   font-family: Yusei Magic,sans-serif;
   font-size: 1.2rem;
-  margin-bottom: 8px
+  margin-bottom: 8px;
+  color: white;
+}
+
+.heroBanner {
+  align-items: center;
+  background-image: url(/img/mar_caspio.jpg);
+  background-size: cover;
+  display: flex;
+  height: 30vh;
+  position: relative;
+  text-align: center
 }
 
 

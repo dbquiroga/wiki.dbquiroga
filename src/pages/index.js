@@ -10,7 +10,7 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)} style={{flex:1, backgroundImage:"/img/docusaurus.png", backgroundSize:'100%'}}> 
+    <header className={clsx('heroBanner', styles.heroBanner)} style={{flex:1, backgroundSize:'100%'}}> 
       <div className="container">
         <div className='heroTextContainer'>
           <div className='avatarArea'>
