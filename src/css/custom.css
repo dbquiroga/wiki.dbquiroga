@@ -37,7 +37,7 @@
     margin: 0 auto;
     max-width: var(--ifm-container-width);
     min-width: -moz-fit-content;
-    min-width: fit-content;
+    /*min-width: fit-content;*/
     padding: 0 var(--ifm-spacing-horizontal)
 }
 
@@ -68,7 +68,7 @@
   letter-spacing: 0;
   margin-bottom: 0;
   padding: 20px;
-  white-space: nowrap
+  /*white-space: nowrap*/
 }
 
 .heroTextTitle {
@@ -96,8 +96,32 @@
 }
 
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 490px) {
   .heroTextContainer {
-      width: 38%
+    width: 100%;
+    padding: 0;
+  }
+  .container {
+    padding: 0;
   }
 }
+
+@media screen and (min-width: 570px) {
+  .heroTextContainer {
+    width: 38%;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .main-wrapper {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heroBanner {
+    background-size: auto;
+  }
+}
+
+
