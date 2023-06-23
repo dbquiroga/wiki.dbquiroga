@@ -68,7 +68,7 @@ ej: `Math.random()*1000;`
 
 
 ### Metodo hasOwnProperty
-Este metodo nos sirve para saber si un objeto tiene un propiedad especifica. Responde con un booleano, true o false.
+Este metodo nos sirve para saber si un objeto tiene una propiedad especifica. Responde con un booleano, true o false.
 ```js
 // HAS OWN PROPERTY
 var libro = { autor: 'Borges', genero: 'Policial', año: 1990 };
@@ -114,3 +114,29 @@ var mascota = {
    },
 };
 ```
+
+### Object.create
+El metodo create de los objetos nos permite crear un nuevo objeto a partir de un prototypre especificado 
+```js
+// creamos un objeto con un objeto vacio como proto
+var obj = Object.create({})
+console.log(obj) //Object {}
+
+// creamos un objeto a partir de un prototipo de Objeto
+var obj = Object.create(Object.prototype)
+// es lo mismo que crear un objeto vacio literal
+var obj = {}
+```
+
+### Object.assign
+Nos permite agregar propiedades a un objeto pasado por parametro:
+```js
+var obj = {}
+
+// No es necesario guardar el resultado porque los objetos se pasan por referencia
+Object.assign(obj,{nombre:'EMi', apellido: 'Chequer'})
+
+obj.nombre //Emi
+```
+
+

@@ -37,6 +37,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
+      id="wrapper-home"
       title={`Home | ${siteConfig.title}`}
       description="Data base Quiroga">
       <HomepageHeader/>

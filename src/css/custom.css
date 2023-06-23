@@ -113,14 +113,14 @@
 }
 
 @media screen and (max-width: 490px) {
-  .main-wrapper {
+  #wrapper-home .main-wrapper {
     height: 80vh;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .heroBanner {
-    background-size: auto;
+  .heroBanner  {
+    background-size: cover;
   }
 }
 
