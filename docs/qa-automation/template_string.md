@@ -1,6 +1,6 @@
 ---
 sidebar_position: 7
-title: Templare Sring
+title: Template Sring
 ---
 
 ### Que es
@@ -46,7 +46,7 @@ console.log(`La suma de a + b es = ${a+b}`);
 ```
 
 
-Mas info: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals]
+Mas info: [Documentacion oficial](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
 
 

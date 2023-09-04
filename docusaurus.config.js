@@ -68,7 +68,7 @@ const config = {
       image: 'img/og-emoji.jpg',
       navbar: {
         style: 'dark',
-        title: 'dbquiroga',
+        title: 'wiki dbquiroga',
         logo: {
           alt: 'Logo',
           src: 'img/logo.svg',

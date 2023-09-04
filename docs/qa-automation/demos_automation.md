@@ -1,7 +1,9 @@
 ---
-sidebar_position: 3
+id: demos-automation
+sidebar_position: 1
 title: Demos para practicar Automatizaciones
-
+description: Links a demos para practicar automatizaciones con cualquier lenguaje
+slug: /demos-automation
 ---
 
 * Coloque estrellitas a las que a mi mas me gustaron. 
