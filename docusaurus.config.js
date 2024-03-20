@@ -45,14 +45,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/dbquiroga/',
+            'https://github.com/dbquiroga/wiki.dbquiroga/edit/main/docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/dbquiroga/',
+            'https://github.com/dbquiroga/wiki.dbquiroga/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
