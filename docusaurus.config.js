@@ -45,7 +45,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/dbquiroga/wiki.dbquiroga/edit/main/docs/',
+            'https://github.com/dbquiroga/wiki.dbquiroga/edit/main/',
         },
         blog: {
           showReadingTime: true,
