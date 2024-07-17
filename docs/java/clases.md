@@ -24,7 +24,7 @@ public class MiPrograma {
 - `String[] args`: Es un parámetro del método que permite recibir argumentos desde la línea de comandos.
 
 En este caso, MiPrograma es la clase principal que contiene el método main, y este método se ejecuta cuando el programa se inicia.
-
+ 
 
 #### Clases sin metodo main
 Todas las demás clases en el programa Java, no necesitan tener un método main. Estas clases suelen contener la lógica de negocio, métodos específicos para realizar tareas, definiciones de objetos y cualquier otra funcionalidad necesaria para el funcionamiento del programa.
