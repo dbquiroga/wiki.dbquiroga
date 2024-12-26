@@ -69,3 +69,19 @@ var masUno = numeros.map( (num) => { return num + 1 } );
 
 console.log(masUno);
 ```
+3. El método `filter()` crea un nuevo array con todos los elementos que pasen una prueba (función) proporcionada. No modifica el array original.
+```js
+const numeros = [1, 2, 3, 4, 5];
+const pares = numeros.filter(num => num % 2 === 0);
+console.log(pares); // [2, 4]
+```
+4. El método `reduce()` aplica una función a un acumulador y a cada valor del array (de izquierda a derecha) para reducirlo a un único valor. No modifica el array original.
+```js
+const numeros = [1, 2, 3, 4, 5];
+const suma = numeros.reduce((acumulador, num) => acumulador + num, 0);
+console.log(suma); // 15
+```
+
+
+// find
+// find index
