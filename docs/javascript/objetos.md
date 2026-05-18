@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Objetos y mejotodos en js
+title: Objetos y métodos en JS
 ---
 JavaScript tiene una serie de objetos globales integrados que nos son de utilidad.Uno de estos objetos es Math, que tiene varios métodos propios.
 
@@ -116,7 +116,7 @@ var mascota = {
 ```
 
 ### Object.create
-El metodo create de los objetos nos permite crear un nuevo objeto a partir de un prototypre especificado 
+El método create de los objetos nos permite crear un nuevo objeto a partir de un prototipo especificado.
 ```js
 // creamos un objeto con un objeto vacio como proto
 var obj = Object.create({})

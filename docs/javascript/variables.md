@@ -3,7 +3,6 @@ sidebar_position: 0
 title: Variables, tipos de datos y operadores. 
 ---
 
-E
 # Tipos de datos primitivos
 En JavaScript, los tipos de datos primitivos son los tipos de datos básicos que no son objetos y no tienen métodos. Los tipos de datos primitivos en JavaScript son:
 
