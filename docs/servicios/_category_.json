@@ -1,0 +1,8 @@
+{
+  "label": "Servicios de Automatización",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Automatización de pruebas E2E para equipos que quieren dejar de probar todo a mano."
+  }
+}

@@ -2,58 +2,55 @@
 sidebar_position: 1
 ---
 
-# Casos de Pruebas
+# Casos de Prueba
 
-Parece una gilada, pero en los test case esta todo. Nos estructuran para definir qué probar y cómo probar. También,  nos define las bases para luego hacer las automatizaciones.
+Puede parecer básico, pero en los test cases está todo. Nos estructuran para definir qué probar y cómo probar, y son la base para luego hacer automatizaciones.
 
-## **Que es?**
+## ¿Qué es?
 
-Es una herramienta de los testes que se usa para ir guiando nuestro paso a paso al momento de probar.
+Es una herramienta que usan los testers para guiar el paso a paso al momento de probar.
 
-Son escritos por y para los testers. 
+Son escritos por y para los testers.
 
-## Y que es exactamente?
+## ¿Qué contiene?
 
-Es la documentación de todas las actividades de pruebas que realizamos como testers, (por lo general un excel), el cual contiene la siguiente info: 
+Es la documentación de todas las actividades de prueba que realizamos como testers (por lo general un Excel o Google Sheet), con la siguiente información:
 
-- Titulo y caratula (engloba la sección a probar)
+- Título y carátula (engloba la sección a probar)
 - Nombre del proyecto
 - Objetivo del caso de prueba
-- Tester que armo los casos
+- Tester que armó los casos
 - Fechas de ejecución
-- Numeración de los casos (cada casos de prueba tiene una numeración con nomenclatura  identificatorio)
-- Numeración de los pasos (cada paso tiene una numeración con nomenclatura )
-- El paso a paso de como se espera que se comporte el sistema
+- Numeración de los casos (cada caso tiene una nomenclatura identificatoria)
+- Numeración de los pasos
+- El paso a paso de cómo se espera que se comporte el sistema
 - Acciones
 - Resultado obtenido
-- Resultado esperado (un resultado esperado por cada paso)
-- Tipo de prueba(positivos, negativos)
+- Resultado esperado (uno por cada paso)
+- Tipo de prueba (positivos, negativos)
 - Observaciones
 
 ## Tipos de pruebas
 
 ### Positivos
 
-Aquellos que el usuario debería poder hacer.
+Aquellos flujos que el usuario debería poder realizar exitosamente.
 
 ### Negativos
 
-Aquellos que el usuario no debería poder hacer.
+Aquellos que el usuario no debería poder hacer, o casos con datos inválidos que el sistema debería rechazar.
 
-Casos que se usan para validar el sistema con datos no validos
+Ejemplos:
 
-Ej:
+- `HJSHDUHEUDDHDSJSjkahkdas` — superar la cantidad de caracteres aceptados
+- `dsfdsf12323` — ingresar valores numéricos en campos que solo aceptan letras
+- Enviar campos vacíos (null)
+- `(/&/(&/&/%/&((((/%$##"""` — caracteres especiales en campos que no los permiten
 
-- HJSHDUHEUDDHDSJSjkahkdas (Superar cantidad de caracteeres aceptados)
-- dsfdsf12323 (colocar valores numericos en campos donde solo acepta letras)
-- Brindar cambos vacios null.
-- (/&/(&/&/%/&((((/%$##””” (ingreso caracteres especiales en campos donde no lo permite)
+:::note
+Un caso de prueba negativo **no** es un defecto. Es una validación esperada del sistema.
+:::
 
-<aside>
-💡 Un caso de prueba negativo NO es un defecto
+## ¿Cómo se aplican en Jira?
 
-</aside>
-
-## Como se aplican en jira?
-
-Los casos de prueba se pueden generar en un excel, google sheet u otras herramientas, jira es una de ellas.
+Los casos de prueba se pueden generar en Excel, Google Sheets u otras herramientas. Jira es una de las más usadas, generalmente junto al plugin Zephyr para gestión de testing.

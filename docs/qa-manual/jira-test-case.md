@@ -3,56 +3,54 @@ sidebar_position: 2
 ---
 # Casos de prueba + Jira
 
-Los test case son  el paso a paso con el cual vamos a definir que una funcionalidad funciona de manera exitosa. 
+Los test cases son el paso a paso con el cual vamos a definir que una funcionalidad funciona de manera exitosa.
 
-Se usa [Jira](https://wallcryptostreet.atlassian.net/) como herramienta para alojar estos Test_case por medio del gestor de testing [Zephyr](https://marketplace.atlassian.com/apps/1014681/zephyr-for-jira-test-management?hosting=cloud&tab=overview)
+Se usa [Jira](https://www.atlassian.com/es/software/jira) como herramienta para alojar estos test cases por medio del gestor de testing [Zephyr](https://marketplace.atlassian.com/apps/1014681/zephyr-for-jira-test-management?hosting=cloud&tab=overview).
 
-## **¿Cómo se usan estas herramientas?**
+## ¿Cómo se usan estas herramientas?
 
-Una vez que inicies sesion en Jira, dentro de una historia hay que asignar como Label: "BDD_feature", esto permite que escribamos en Gherking dentro de la historia para posteriormente automatizar el test. 
+Una vez que inicies sesión en Jira, dentro de una historia hay que asignar como Label: `BDD_feature`. Esto permite escribir los escenarios en Gherkin dentro de la historia para posteriormente automatizarlos.
 
-### **Asignar label**
+### Asignar label
 
-Primero se asigna la label "BDD_Feature" de esta manera se define que esa historia va a tener escenarios asignados.
+Se asigna la label `BDD_Feature` para indicar que esa historia tendrá escenarios de prueba asociados.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9fc2cc56-e719-46f3-8000-ffb95b464b09/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9fc2cc56-e719-46f3-8000-ffb95b464b09/Untitled.png)
+### Definir los Scenarios
 
-### **Definir los Scenarios**
+Dirigirse a **Feature Content**, donde se habilitará la opción para escribir escenarios. Los escenarios se redactan como una historia de usuario con la estructura:
 
-Luego, sirigirse a Feature Content, alli se habilitara la opción para escribir escenarios. Los escenarios se redactan como historia, para que se pueda realizar una lectura rápida de que trata. Siendo la estructura: 
+> **Como** [rol] **quiero** [acción] **para** [beneficio]
 
-     "**Como** [quien/rol] **Quiero** [que/acción] **Para** [razón/beneficio]"
+### Escribir test cases en Gherkin
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84878135-0eab-4704-b6f2-d20db99660fb/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84878135-0eab-4704-b6f2-d20db99660fb/Untitled.png)
+Gherkin es un lenguaje que describe el comportamiento del sistema en lenguaje natural, legible tanto por el equipo técnico como por el negocio.
 
-### Ahora si... a escribir test case!
+**Estructura:**
 
-Los test case se escriben en gherking para luego estos sean automatizados. La estructura de Gherking es la siguiente:
+```gherkin
+Given  # precondición del escenario
+When   # acción que ejecuta el usuario
+Then   # resultado esperado
+And    # para encadenar pasos adicionales
+```
 
-antes.. ¿Que es Gherking? 
+**Ejemplo:**
 
-Gherking es un lenguaje a bajo nivel para definir el comportamiento del usuario en sistemas.
+```gherkin
+Scenario: Login exitoso con credenciales válidas
+  Given que el usuario está en la página de login
+  When ingresa el email "day@ejemplo.com" y la contraseña correcta
+  Then debería ver el dashboard con su nombre
+```
 
-**Estructura de Gherkin**
-
-**Given** Cumplo una precondición
-
-**When** Ejecuto una acción
-
-**Then** Observo este resultado
-
-Documentacion sobre Gherking: [https://cucumber.io/docs/gherkin/reference/](https://cucumber.io/docs/gherkin/reference/)
-
-La estructura de un test case será:
-
-- Descripción corta del caso de prueba
-- Pre condiciones para ejecutar el caso de prueba
-- Paso a paso (escrito en Gherkin)
+Cada test case incluye:
+- Descripción corta
+- Precondiciones
+- Paso a paso en Gherkin
 - Resultado esperado
-- 
 
-!Importante no olvidar linkear al issue al cual se estan escribiendo los test case.
+:::important
+No olvidar linkear el test case al issue correspondiente en Jira.
+:::
 
-Los test case se colocan dentro del escenario que lo describe. 
-
-Ej de un escenario con test case escrito:
+Documentación oficial de Gherkin: [cucumber.io/docs/gherkin](https://cucumber.io/docs/gherkin/reference/)
