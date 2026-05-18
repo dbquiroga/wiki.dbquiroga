@@ -14,7 +14,7 @@ La automatización de pruebas **E2E (End-to-End)** valida los flujos críticos d
 
 ## Qué ofrezco
 
-Desarrollo suites de tests E2E a medida para aplicaciones web, usando **Cypress** y asistido por IA para acelerar la generación de casos de prueba.
+Desarrollo suites de tests E2E a medida para aplicaciones web, usando **Playwright** y asistido por IA para acelerar la generación de casos de prueba.
 
 | Entregable | Detalle |
 |---|---|
@@ -48,7 +48,7 @@ Ideal para **pymes y startups** que:
 
 ## Tecnologías
 
-- **Cypress** — tests web E2E
+- **Playwright** — tests web E2E
 - **GitHub Actions / GitLab CI** — integración continua
 - **IA generativa** — acelera la escritura de casos de prueba
 - **Allure** — reportes visuales por ejecución
